@@ -1,7 +1,6 @@
-package com.vsk.ExceptionHandling.entities;
+package com.vsk.ExceptionHandling.exception;
 
 
-import jakarta.persistence.Entity;
 import lombok.Getter;
 import lombok.Setter;
 

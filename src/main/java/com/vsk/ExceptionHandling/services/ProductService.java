@@ -1,17 +1,12 @@
 package com.vsk.ExceptionHandling.services;
 
 
-import com.vsk.ExceptionHandling.entities.ExceptionResponse;
 import com.vsk.ExceptionHandling.entities.Product;
 import com.vsk.ExceptionHandling.exception.ProductNotFoundException;
 import com.vsk.ExceptionHandling.repositories.ProductRepository;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.http.ResponseEntity;
-import org.springframework.http.HttpStatus;
 
 
-import java.time.LocalDateTime;
 import java.util.List;
 
 @Service

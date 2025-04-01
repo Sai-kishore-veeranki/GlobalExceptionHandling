@@ -1,6 +1,6 @@
 package com.vsk.ExceptionHandling;
 
-import com.vsk.ExceptionHandling.entities.ExceptionResponse;
+import com.vsk.ExceptionHandling.exception.ExceptionResponse;
 import com.vsk.ExceptionHandling.exception.ProductNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
